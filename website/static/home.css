@@ -1,0 +1,63 @@
+h1, p {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #74AED9;
+}
+
+input, select {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+select {
+    height: 2em;
+}
+
+.textfield {
+    height: 1.5em;
+    border: 2px solid black;
+}
+
+fieldset {
+    /* border: none; */
+    border-color: #C42E9A;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.align-left {
+    width: unset;
+    display: inline-block;
+}
+
+div {
+    margin-bottom: -10px;
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 25px;
+    margin: 10px auto;
+    background-color: rgba(0, 255, 0, 90%);
+    color: #FF3C00;
+    font-weight: bold;
+}
